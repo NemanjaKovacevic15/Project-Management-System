@@ -1,0 +1,107 @@
+body, #mainWrapper {
+	height: 100%;
+	background-color:rgb(245, 245, 245);
+}
+
+body, .form-control{
+	/*font-size:12px!important;*/
+}
+
+.floatRight{
+	float:right;
+	margin-right: 18px;
+}
+
+.has-error{
+	color:red;
+}
+
+.generic-container {
+  position:fixed;
+  width:80%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #EAE7E7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 30px black;
+}
+
+.custom-width {
+    width: 80px !important;
+}
+.half-width{
+    max-width:50%;
+}
+.project-search-form{
+    clear:both;
+}
+.project-search-form .col-md-4{
+    padding-left:0px;
+    margin-bottom: 10px;
+}
+.fright{
+    float:right;
+}
+.top-menu{
+    padding-top: 20px;
+}
+.content hr{
+    margin-top:5px;
+}
+.comment-date{
+    margin-top:10px;
+    font-size: 11px;
+}
+.commentMessage{
+    color: #9f191f;
+}
+.comment-form textarea{
+    max-height:70px;
+}
+.comment-submit-btn{
+    /*position: relative;*/
+    /*height:70px;*/
+}
+.comment-submit-btn .btn-primary{
+    margin-top:10px;
+
+    /*position: absolute;*/
+    /*bottom:0px;*/
+    /*left:20px;*/
+}
+.comment-list-wrap{
+    margin-top:15px;
+}
+.comment-list-wrap .media{
+    background: #fafafa;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#ajaxSpinner{
+    text-align: center;
+    font-size: 25px;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+.padd{
+    padding:10px;
+}
+.project-detail-container{
+    max-width:65%; background: #fff; border-radius:5px;
+}
+.back-btn {
+    float: right;
+    margin-top: 10px;
+}
+.form-padding{
+    padding: 1em;
+}
